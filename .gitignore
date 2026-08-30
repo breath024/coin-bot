@@ -1,0 +1,45 @@
+# --- 비밀정보 ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets*
+credentials*
+*token*.txt
+api.txt
+
+# --- 파이썬 ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# --- 노드 ---
+node_modules/
+dist/
+.next/
+
+# --- OS/에디터 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+
+# --- 로그/DB/캐시 ---
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+
+# --- 실제 개인 매매기록 (손익 포함) ---
+매매기록.csv
+매매일지.csv
+crypto_trades.csv
+
+# --- 대용량 시세/틱 데이터 (재수집 가능) ---
+data/
