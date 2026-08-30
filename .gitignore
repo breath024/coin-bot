@@ -50,3 +50,7 @@ trades_raw.txt
 
 # 외부 강의 녹취록 (제3자 저작물)
 trading.txt
+
+# --- 생성물 (내 실매매 기록이 박혀 나온다) ---
+dashboard.html
+grade_entries.html
